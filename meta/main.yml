@@ -10,6 +10,12 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+    - name: EL
+      version:
+        - all
+    - name: Fedora
+      version:
+        - all
   galaxy_tags:
     - development
     - build
