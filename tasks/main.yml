@@ -25,3 +25,8 @@
   become_user: root
   command: /tmp/{{bazel_installer}}
 
+- name: first run
+  become: yes
+  become_user: root
+  command: bazel version
+
