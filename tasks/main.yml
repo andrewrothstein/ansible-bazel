@@ -18,7 +18,7 @@
   get_url: >-
     url={{bazel_installer_url}}
     dest=/tmp/{{bazel_installer}}
-    mode-0755
+    mode=0755
 
 - name: run installer
   become: yes
