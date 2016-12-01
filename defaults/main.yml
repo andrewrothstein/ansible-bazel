@@ -1,0 +1,4 @@
+---
+bazel_ver: '0.4.1'
+bazel_platform: linux-x86_64
+bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
