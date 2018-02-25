@@ -1,5 +1,6 @@
 andrewrothstein.bazel
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-bazel.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-bazel)
 
 Installs [Bazel](https://bazel.build/)
 
@@ -35,4 +36,4 @@ MIT
 Author Information
 ------------------
 
-Andrew Rothstein andrew.rothstein@gmail.com
+Andrew Rothstein <andrew.rothstein@gmail.com>
