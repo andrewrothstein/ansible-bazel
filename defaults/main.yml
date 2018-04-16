@@ -13,7 +13,7 @@ bazel_checksums:
   '0.11.1':
     # curl -sSL https://github.com/bazelbuild/bazel/releases/download/0.11.1/bazel-0.11.1-installer-linux-x86_64.sh.sha256
     linux-x86_64: sha256:58966c52584088c65769f9c5f1f417a0fa804759af8fda4525b2c270bf07e8b2
-  '0.12.0'
+  '0.12.0':
     # curl -sSL https://github.com/bazelbuild/bazel/releases/download/0.12.0/bazel-0.12.0-installer-linux-x86_64.sh.sha256
     linux-x86_64: sha256:1af7a70cc2c5180765ed2f0da366c625fac89e6656dedc008320d46eb1f75e20
   
