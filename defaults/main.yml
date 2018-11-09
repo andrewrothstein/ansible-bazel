@@ -1,5 +1,5 @@
 ---
-bazel_ver: '0.18.0'
+bazel_ver: '0.18.1'
 bazel_platform: linux-x86_64
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
 
@@ -34,5 +34,6 @@ bazel_checksums:
   '0.18.0':
     # curl -sSL https://github.com/bazelbuild/bazel/releases/download/0.18.0/bazel-0.18.0-installer-linux-x86_64.sh.sha256
     linux-x86_64: sha256:48ddaa9c9fef73dbe68517f274f09b33c3c8fdf3410638808b609f82b177d397
-
-    
+  '0.18.1':
+    # curl -sSL https://github.com/bazelbuild/bazel/releases/download/0.18.1/bazel-0.18.1-installer-linux-x86_64.sh.sha256
+    linux-x86_64: sha256:8073657ced2bb323dd2e7ba6e39011ca56b856cae475b476e9b77d30123582e5

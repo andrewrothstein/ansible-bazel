@@ -36,4 +36,3 @@
   become: yes
   become_user: root
   command: bazel version
-
