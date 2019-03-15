@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-VER=0.22.0
+VER=0.23.2
 MIRROR=https://github.com/bazelbuild/bazel/releases/download/$VER
 
 dl()
