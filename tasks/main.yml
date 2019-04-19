@@ -18,32 +18,19 @@
     name: '{{ item }}'
     state: present
 
-- name: check for installation...
+- name: download exe
   become: yes
-  stat:
-    path: '{{ bazel_installed }}'
-  changed_when: False
-  register: bazel_binary
+  become_user: root
+  get_url:
+    url: '{{ bazel_exe_url }}'
+    dest: '{{ bazel_install_path }}'
+    checksum: '{{ bazel_checksum }}'
+    mode: 0755
 
-- when: not bazel_binary.stat.exists
-  block:
-    - name: download installer
-      become: yes
-      become_user: root
-      get_url:
-        url: '{{ bazel_installer_url }}'
-        dest: /tmp/{{ bazel_installer }}
-        checksum: '{{ bazel_checksum }}'
-        mode: 0755
-
-    - name: run installer
-      become: yes
-      become_user: root
-      command: /tmp/{{ bazel_installer }}
-      args:
-        creates: '{{ bazel_installed }}'
-
-    - name: first bazel run / finalize installation
-      become: yes
-      become_user: root
-      command: '{{ bazel_installed }} version'
+- name: link
+  become: yes
+  become_user: root
+  file:
+    src: '{{ bazel_install_path }}'
+    dest: '{{ bazel_link_path }}'
+    state: link
