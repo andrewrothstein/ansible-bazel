@@ -1,5 +1,5 @@
 ---
-bazel_ver: '0.24.1'
+bazel_ver: '0.25.2'
 bazel_platform: linux-x86_64
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
 bazel_install_dir: /usr/local/bin
@@ -9,4 +9,8 @@ bazel_checksums:
     linux-x86_64: sha256:e18e2877e18a447eb5d94f5efbec375366d82af6443c6a83a93c62657a7b1c32
     darwin-x86_64: sha256:cf763752550050d117e03659aaa6ccd6f97da1f983a6029300a497fdaeaaec46
     windows-x86_64: sha256:b34a63bbf57b0dfad409165773f34e2ccd41ed589e3f182c3712a910101c1cf6
+  '0.25.2':
+    linux-x86_64: sha256:c6b9f3a3350419521461c6d9bdbfd09b4f745af564e1728e2fbf9d4d343f93b6
+    darwin-x86_64: sha256:9a4be9e7aaef6f6e7250fef3789e98d66d218ac7c1b4ce867a8d661f406533d1
+    windows-x86_64: sha256:281605c66b4eef65f5a5ace704b777105e9727ab2d85a0d75684b1d6ed0eb72c
 
