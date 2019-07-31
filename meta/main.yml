@@ -1,6 +1,7 @@
 dependencies:
 - role: andrewrothstein.openjdk
-  version: v1.0.0
+  version: v2.0.0
+  openjdk_app: jdk
 galaxy_info:
   author: Andrew Rothstein
   company: BlackRock
