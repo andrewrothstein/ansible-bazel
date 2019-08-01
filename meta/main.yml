@@ -1,6 +1,6 @@
 dependencies:
 - role: andrewrothstein.openjdk
-  version: v2.0.0
+  version: v2.0.1
   openjdk_app: jdk
 galaxy_info:
   author: Andrew Rothstein
