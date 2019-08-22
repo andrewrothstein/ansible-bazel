@@ -13,9 +13,8 @@
 - name: install os pkgs...
   become: yes
   become_user: root
-  with_items: '{{ bazel_os_pkgs }}'
   package:
-    name: '{{ item }}'
+    name: '{{ bazel_os_pkgs | default([]) }}'
     state: present
 
 - name: download exe
