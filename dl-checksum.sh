@@ -1,15 +1,15 @@
 #!/usr/bin/env sh
-VER=0.28.1
+VER=0.29.1
 MIRROR=https://github.com/bazelbuild/bazel/releases/download/$VER
 
 dl()
 {
-    OS=$1
-    PLATFORM=$2
-    EXESUFFIX=${3:-}
-    URL=$MIRROR/bazel-$VER-$OS-$PLATFORM$EXESUFFIX.sha256
-    printf "    # %s\n" $URL
-    printf "    %s-%s: sha256:%s\n" $OS $PLATFORM `curl -SsL $URL | awk '{print $1}'`
+    local os=$1
+    local arch=$2
+    local exesuffix=${3:-}
+    local url=$MIRROR/bazel-$VER-$os-$arch$exesuffix.sha256
+    printf "    # %s\n" $url
+    printf "    %s-%s: sha256:%s\n" $os $arch `curl -SsL $url | awk '{print $1}'`
 }
 
 printf "  '%s':\n" $VER
