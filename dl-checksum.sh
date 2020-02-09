@@ -21,4 +21,4 @@ dl_ver() {
     dl $ver windows x86_64 .exe
 }
 
-dl_ver ${1:-2.0.0}
+dl_ver ${1:-2.1.0}
