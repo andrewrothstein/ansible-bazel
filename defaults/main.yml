@@ -1,5 +1,5 @@
 ---
-bazel_ver: 3.3.0
+bazel_ver: 3.3.1
 bazel_platform: linux-x86_64
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
 bazel_install_dir: /usr/local/bin
@@ -108,3 +108,10 @@ bazel_checksums:
     darwin-x86_64: sha256:54f57de69e295698c2e06113a82011009e547ad725e7900f86472ac9b2fc6721
     # https://github.com/bazelbuild/bazel/releases/download/3.3.0/bazel-3.3.0-windows-x86_64.exe.sha256
     windows-x86_64: sha256:11865165c23e226543d99f837b5dd05b8545213d6eb69cd22d8b9f54117d4746
+  '3.3.1':
+    # https://github.com/bazelbuild/bazel/releases/download/3.3.1/bazel-3.3.1-linux-x86_64.sha256
+    linux-x86_64: sha256:7d9e80bddd2cbfbd83da415373e75b9a77cf9f7c784f74382b8f9f8b412bde20
+    # https://github.com/bazelbuild/bazel/releases/download/3.3.1/bazel-3.3.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:01b2500ab81ee469dd58d87ba697d6714e265d52930682d6feb58adb4e6266d7
+    # https://github.com/bazelbuild/bazel/releases/download/3.3.1/bazel-3.3.1-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:0b4d190d8f66f5bcdaf1b6d73124947fbd396e5ec5a993f43bab2d1da42d5b71
