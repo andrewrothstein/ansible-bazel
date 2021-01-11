@@ -1,5 +1,6 @@
 ---
 bazel_ver: 3.7.2
+bazel_include_jdk: True
 bazel_platform: linux-x86_64
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
 bazel_install_dir: /usr/local/bin
@@ -171,3 +172,35 @@ bazel_checksums:
     darwin-x86_64: sha256:80c82e93a12ba30021692b11c78007807e82383a673be1602573b944beb359ab
     # https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel-3.7.2-windows-x86_64.exe.sha256
     windows-x86_64: sha256:ecb696b1b9c9da6728d92fbfe8410bafb4b3a65c358980e49742233f33f74d10
+
+bazel_nojdk_checksums:
+  '3.5.0':
+    # https://github.com/bazelbuild/bazel/releases/download/3.5.0/bazel_nojdk-3.5.0-linux-x86_64.sha256
+    linux-x86_64: sha256:60c642e9cf97c47abafc2e36809c8490a8102d061178c5b46958cd812b380929
+    # https://github.com/bazelbuild/bazel/releases/download/3.5.0/bazel_nojdk-3.5.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:63d0774f5d823ea12d48f9ae21f64020f1816a60119d42877563795e5905227e
+  '3.5.1':
+    # https://github.com/bazelbuild/bazel/releases/download/3.5.1/bazel_nojdk-3.5.1-linux-x86_64.sha256
+    linux-x86_64: sha256:fc50028c0be80cb5613948d94c81854ae4d85135c537024e3a38cfb1bc60565e
+    # https://github.com/bazelbuild/bazel/releases/download/3.5.1/bazel_nojdk-3.5.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:a543fca3ac7f7150d39e43701390d45f560cc7d4132f740c2ace6bfcd383791a
+  '3.6.0':
+    # https://github.com/bazelbuild/bazel/releases/download/3.6.0/bazel_nojdk-3.6.0-linux-x86_64.sha256
+    linux-x86_64: sha256:6af9e6d66283b5f6cf93a0a1c36f51d3aa0032fa1802e945ae975741d205785e
+    # https://github.com/bazelbuild/bazel/releases/download/3.6.0/bazel_nojdk-3.6.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:7f7034d3ea89be56a7770a7c8e51cdc26660a6ed742fc5cd3c2de7501290b24b
+  '3.7.0':
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.0/bazel_nojdk-3.7.0-linux-x86_64.sha256
+    linux-x86_64: sha256:0f8b194af2cdd24530bb9284ece24d60c81b72e4da30a1bf4a7a78c8cd88e6db
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.0/bazel_nojdk-3.7.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:c1b90e1f65a443ca95f19d51f7c6a4e5cf496915153f440d909a33f1396733d6
+  '3.7.1':
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.1/bazel_nojdk-3.7.1-linux-x86_64.sha256
+    linux-x86_64: sha256:0706e690d12173b6bfc08990990782aa86be385d5c1a1357c77a6ef4acb95f7b
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.1/bazel_nojdk-3.7.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:5ecefa6bc38068e8e7b29a1d46d0d349233b8557e551f4399067d09aa0f91cab
+  '3.7.2':
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel_nojdk-3.7.2-linux-x86_64.sha256
+    linux-x86_64: sha256:dbf43bf909d2dbdd428820a6794d668404edcf1e15f20475837e568c83c9cd7b
+    # https://github.com/bazelbuild/bazel/releases/download/3.7.2/bazel_nojdk-3.7.2-darwin-x86_64.sha256
+    darwin-x86_64: sha256:85ad5cdbf4e2e3635836b93e68e9551955d1918a344bfb8b9dc1a11ed48cdce4
