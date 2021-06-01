@@ -1,5 +1,5 @@
 ---
-bazel_ver: 4.0.0
+bazel_ver: 4.1.0
 bazel_include_jdk: True
 bazel_platform: linux-x86_64
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
@@ -179,6 +179,13 @@ bazel_checksums:
     darwin-x86_64: sha256:349f3c9dd24191369c1073c57cc1386fc3c2d4ad7d44135c3d873c9dc67fae1f
     # https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.exe.sha256
     windows-x86_64: sha256:43930bbbc8b5d618884ee8145e1ec181760bf9eea42d16217a30381d176e4cf6
+  '4.1.0':
+    # https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-linux-x86_64.sha256
+    linux-x86_64: sha256:0eb2e378d2782e7810753e2162245ad1179c1bb12f848c692b4a595b4edf779b
+    # https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:2eecc3abb0ff653ed0bffdb9fbfda7b08548c2868f13da4a995f01528db200a9
+    # https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:7b2077af7055b421fe31822f83c3c3c15e36ff39b69560ba2472dde92dd45b46
 
 bazel_nojdk_checksums:
   '3.5.0':
@@ -216,3 +223,8 @@ bazel_nojdk_checksums:
     linux-x86_64: sha256:095072c4472f019e700cf0cb968087cd37b3fbd350f83de775778a931d0d11ce
     # https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel_nojdk-4.0.0-darwin-x86_64.sha256
     darwin-x86_64: sha256:5e36cb7bd69a226a8e6452ccff3dfe7a9781616263b92607502e5716e8cbefdd
+  '4.1.0':
+    # https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel_nojdk-4.1.0-linux-x86_64.sha256
+    linux-x86_64: sha256:6976f8b48400fe1080f1ad6ac4bf043e39d5548f3a0b4788a6963a2abc2c120d
+    # https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel_nojdk-4.1.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:b1c660dfc0fd9d4a62ff83b998cb7268ce49b1a76d42afedbeec2230bc9e5def

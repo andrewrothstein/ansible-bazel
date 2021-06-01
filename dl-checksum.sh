@@ -33,6 +33,6 @@ dl_bazel_nojdk() {
     dl $ver $app darwin x86_64
 }
 
-VER=${1:-4.0.0}
+VER=${1:-4.1.0}
 dl_bazel $VER
 dl_bazel_nojdk $VER
