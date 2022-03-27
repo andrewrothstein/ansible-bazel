@@ -11,7 +11,7 @@ dl()
     local platform="${os}-${arch}"
     local url=$MIRROR/$ver/$app-$ver-$platform${exesuffix}.sha256
     printf "    # %s\n" $url
-    printf "    %s-%s: sha256:%s\n" $os $arch `curl -SsL $url | awk '{print $1}'`
+    printf "    %s-%s: sha256:%s\n" $os $arch $(curl -SsLf $url | awk '{print $1}')
 }
 
 dl_bazel() {
@@ -33,6 +33,6 @@ dl_bazel_nojdk() {
     dl $ver $app darwin x86_64
 }
 
-VER=${1:-4.2.2}
+VER=${1:-5.1.0}
 dl_bazel $VER
 dl_bazel_nojdk $VER
