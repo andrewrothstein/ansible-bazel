@@ -11,14 +11,14 @@
         - '{{ role_path }}/vars'
 
 - name: install os pkgs...
-  become: yes
+  become: true
   become_user: root
   package:
     name: '{{ bazel_os_pkgs | default([]) }}'
     state: present
 
 - name: downloading {{ bazel_exe_url }} to {{ bazel_install_path }}
-  become: yes
+  become: true
   become_user: root
   get_url:
     url: '{{ bazel_exe_url }}'
@@ -27,7 +27,7 @@
     mode: 0755
 
 - name: linking {{ bazel_link_path }} to {{ bazel_install_path }}
-  become: yes
+  become: true
   become_user: root
   file:
     src: '{{ bazel_install_path }}'
