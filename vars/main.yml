@@ -1,6 +1,9 @@
 ---
 # vars file for bazel
-bazel_exe_name: '{% if bazel_include_jdk %}bazel{% else %}bazel_nojdk{% endif %}'
+bazel_os: '{{ ansible_system | lower }}'
+bazel_arch: '{{ ansible_architecture }}'
+bazel_platform: '{{ bazel_os }}-{{ bazel_arch }}'
+bazel_exe_name: bazel{% if not bazel_include_jdk %}_nojdk{% endif %}
 bazel_exe: '{{ bazel_exe_name }}-{{ bazel_ver }}-{{ bazel_platform }}{{ bazel_exe_suffix | default("") }}'
 bazel_exe_url: '{{ bazel_mirror }}/{{ bazel_ver }}/{{ bazel_exe }}'
 bazel_checksum: '{{ (bazel_checksums if bazel_include_jdk else bazel_nojdk_checksums)[bazel_ver][bazel_platform] }}'
