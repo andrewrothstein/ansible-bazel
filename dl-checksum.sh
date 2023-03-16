@@ -17,7 +17,6 @@ dl()
 dl_bazel() {
     local ver=$1
     local app=bazel
-    printf "%s_checksums:\n" $app
     printf "  '%s':\n" $ver
     dl $ver $app linux x86_64
     dl $ver $app darwin x86_64
@@ -27,12 +26,15 @@ dl_bazel() {
 dl_bazel_nojdk() {
     local ver=$1
     local app=bazel_nojdk
-    printf "%s_checksums:\n" $app
     printf "  '%s':\n" $ver
     dl $ver $app linux x86_64
     dl $ver $app darwin x86_64
 }
 
-VER=${1:-6.0.0}
-dl_bazel $VER
-dl_bazel_nojdk $VER
+dl_ver() {
+    ver=$1
+    dl_bazel $ver >> defaults/main/bazel_checksums.yml
+    dl_bazel_nojdk $ver >> defaults/main/bazel_nojdk_checksums.yml
+}
+
+dl_ver ${1:-6.1.1}
