@@ -12,18 +12,17 @@ galaxy_info:
   platforms:
   - name: Debian
     versions:
+    - bookworm
     - bullseye
-    - buster
   - name: EL
     version:
     - 8
     - 9
   - name: Fedora
     version:
-    - 36
     - 37
+    - 38
   - name: Ubuntu
     versions:
-    - bionic
     - focal
     - jammy
