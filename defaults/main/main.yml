@@ -1,5 +1,5 @@
 ---
-bazel_ver: 6.2.1
+bazel_ver: 6.3.0
 bazel_include_jdk: true
 bazel_mirror: https://github.com/bazelbuild/bazel/releases/download
 bazel_install_dir: /usr/local/bin
