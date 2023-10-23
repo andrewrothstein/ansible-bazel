@@ -135,3 +135,8 @@ bazel_nojdk_checksums:
     linux-x86_64: sha256:1e47967980e2686958171341e1ff6c0f4b98da49593fa67df4fb60173d44fdc2
     # https://github.com/bazelbuild/bazel/releases/download/6.3.2/bazel_nojdk-6.3.2-darwin-x86_64.sha256
     darwin-x86_64: sha256:574ad4b7ba6615728d0b87f81ee05cf845f58cd8d2e1609cac9124f0eb2d9543
+  '6.4.0':
+    # https://github.com/bazelbuild/bazel/releases/download/6.4.0/bazel_nojdk-6.4.0-linux-x86_64.sha256
+    linux-x86_64: sha256:6a14f8840119cce6f7e6f03c3c9c82606d925495969187e5baae61463d2f5023
+    # https://github.com/bazelbuild/bazel/releases/download/6.4.0/bazel_nojdk-6.4.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:8609d57a2a356aef929d39e7dda1f68c79cb29ac7ccfec08003d98d7b7e8b602
