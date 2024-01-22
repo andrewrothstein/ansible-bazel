@@ -1,7 +1,7 @@
 ---
 # vars file for bazel
 bazel_os: '{{ ansible_system | lower }}'
-bazel_arch: '{{ ansible_architecture }}'
+bazel_arch: '{{ bazel_arch_map[ansible_architecture] }}'
 bazel_platform: '{{ bazel_os }}-{{ bazel_arch }}'
 bazel_exe_name: bazel{% if not bazel_include_jdk %}_nojdk{% endif %}
 bazel_exe: '{{ bazel_exe_name }}-{{ bazel_ver }}-{{ bazel_platform }}{{ bazel_exe_suffix | default("") }}'

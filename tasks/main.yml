@@ -1,35 +1,35 @@
 ---
-- name: resolve platform specific vars
-  include_vars: "{{ item }}"
+- name: Resolve platform specific vars
+  ansible.builitin.include_vars: '{{ item }}'
   with_first_found:
     - files:
-        - "{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml"
-        - "{{ ansible_distribution }}.yml"
-        - "{{ ansible_os_family }}.yml"
+        - '{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml'
+        - '{{ ansible_distribution }}.yml'
+        - '{{ ansible_os_family }}.yml'
       skip: true
       paths:
         - '{{ role_path }}/vars'
 
-- name: install os pkgs...
+- name: Install os pkgs...
   become: true
   become_user: root
-  package:
+  ansible.builtin.package:
     name: '{{ bazel_os_pkgs | default([]) }}'
     state: present
 
-- name: downloading {{ bazel_exe_url }} to {{ bazel_install_path }}
+- name: Downloading {{ bazel_exe_url }} to {{ bazel_install_path }}
   become: true
   become_user: root
-  get_url:
+  ansible.builtin.get_url:
     url: '{{ bazel_exe_url }}'
     dest: '{{ bazel_install_path }}'
     checksum: '{{ bazel_checksum }}'
-    mode: 0755
+    mode: '755'
 
-- name: linking {{ bazel_link_path }} to {{ bazel_install_path }}
+- name: Linking {{ bazel_link_path }} to {{ bazel_install_path }}
   become: true
   become_user: root
-  file:
+  ansible.builtin.file:
     src: '{{ bazel_install_path }}'
     dest: '{{ bazel_link_path }}'
     state: link

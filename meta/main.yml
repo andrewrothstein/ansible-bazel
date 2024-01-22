@@ -7,20 +7,21 @@ galaxy_info:
     - development
     - build
   license: MIT
-  min_ansible_version: 2.0
+  min_ansible_version: '2.0'
+  namespace: andrewrothstein
   platforms:
     - name: Debian
       versions:
         - bookworm
         - bullseye
     - name: EL
-      version:
-        - 8
-        - 9
+      versions:
+        - '8'
+        - '9'
     - name: Fedora
-      version:
-        - 38
-        - 39
+      versions:
+        - '38'
+        - '39'
     - name: Ubuntu
       versions:
         - focal
