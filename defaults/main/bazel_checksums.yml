@@ -349,3 +349,14 @@ bazel_checksums:
     darwin-x86_64: sha256:0a9bfb9581a37049b7dcf204cc569b0458bedba20e84c55c0952161e036525ba
     # https://github.com/bazelbuild/bazel/releases/download/7.0.2/bazel-7.0.2-windows-x86_64.exe.sha256
     windows-x86_64: sha256:63ea61e5dcdd3090ff0bccb73c9293ed787705c6d46850db24f9bd8281e1f687
+  '7.1.0':
+    # https://github.com/bazelbuild/bazel/releases/download/7.1.0/bazel-7.1.0-linux-arm64.sha256
+    linux-arm64: sha256:b8cb5f842ce457606fbff3dba7a47e973f72bba0af1b7575ae500ca5a3d44282
+    # https://github.com/bazelbuild/bazel/releases/download/7.1.0/bazel-7.1.0-linux-x86_64.sha256
+    linux-x86_64: sha256:62d62c699c1eb9f9be6a88030912a54d19fe45ae29329c7e5c53aba787492522
+    # https://github.com/bazelbuild/bazel/releases/download/7.1.0/bazel-7.1.0-darwin-arm64.sha256
+    darwin-arm64: sha256:fb5e7bc62fc3c8f2511e3b64d795296444129b26f13d8dece4d4cee1845b758f
+    # https://github.com/bazelbuild/bazel/releases/download/7.1.0/bazel-7.1.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:52ad8d57c22e4f873c724473a09ecfd98966c3a2950e102a7bd7e8c612b8001c
+    # https://github.com/bazelbuild/bazel/releases/download/7.1.0/bazel-7.1.0-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:f3e01effd7674364ef2d7539d5ece6cd2f68d212ee94652623ae2405b53feeaf
