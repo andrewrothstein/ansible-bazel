@@ -41,4 +41,4 @@ dl_ver() {
     dl_bazel_nojdk $ver >> defaults/main/bazel_nojdk_checksums.yml
 }
 
-dl_ver ${1:-8.0.0}
+dl_ver ${1:-9.0.0}

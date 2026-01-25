@@ -1,20 +1,5 @@
 [
   {
-    "OS": "alpine",
-    "OS_VER": "3.22",
-    "platforms": "linux/amd64,linux/arm64"
-  },
-  {
-    "OS": "alpine",
-    "OS_VER": "3.23",
-    "platforms": "linux/amd64,linux/arm64"
-  },
-  {
-    "OS": "alpine",
-    "OS_VER": "edge",
-    "platforms": "linux/amd64,linux/arm64"
-  },
-  {
     "OS": "archlinux",
     "OS_VER": "latest",
     "platforms": "linux/amd64"
