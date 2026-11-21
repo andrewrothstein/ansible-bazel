@@ -415,3 +415,102 @@ bazel_checksums:
     darwin-x86_64: sha256:aa7e5fc364eaaba7f4f271dbf8c14172a5433f663cca6b130325df4b6569b3f0
     # https://github.com/bazelbuild/bazel/releases/download/9.0.0/bazel-9.0.0-windows-x86_64.exe.sha256
     windows-x86_64: sha256:463faee497df2913854d80776784137cb47f42960b4ef4e4f85068c8da4849a8
+  '9.0.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-linux-arm64.sha256
+    linux-arm64: sha256:f2f5277c38cc063085fc3f89afa0d23c35a0337718f945c6ed81aac44a1b8411
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-linux-x86_64.sha256
+    linux-x86_64: sha256:b4746d3ee7e698b08ebc6a91bd6b4062a25d1b4214a5964f866986f59fc159fb
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-darwin-arm64.sha256
+    darwin-arm64: sha256:2e504b99739a1b2f04fdafed08fe89eba27c9b75f6383703310b7f7071c15841
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:46af6aa5d365b8a28faa1cd7e9f01fbac7e563ce9e1405c6c4dda31812f1b964
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel-9.0.1-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:481da3cc9ebf0dd58139b1875319d9c8a0169d14f4c590ce27629c593001e85e
+  '9.0.2':
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-linux-arm64.sha256
+    linux-arm64: sha256:e9fc2c7b0027619058acae81c063e5ced683cb0f1598e9373b4f752820c03adb
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-linux-x86_64.sha256
+    linux-x86_64: sha256:422e7a1690b76d7e615c29091d3aca28d0bd3a93fe3c93cbefb8f72d774926d5
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-darwin-arm64.sha256
+    darwin-arm64: sha256:525cfcbf9790af7319ea78c9ff2053b8a5634013c41783440b5d82433f14d280
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-darwin-x86_64.sha256
+    darwin-x86_64: sha256:982cfb5ef4fac51aca3520ce03aca19eed5492090b410d1e35cb81c4fd8a7ce8
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel-9.0.2-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:e45277210da3fc1999e474edce5d9e73b37a6fdc0b78418880d9adad12276c4e
+  '9.1.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel-9.1.0-linux-arm64.sha256
+    linux-arm64: sha256:ba933bfc943e4c44f0743a5823aa2312a34b39628532add5dd037e08d8ec27a4
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel-9.1.0-linux-x86_64.sha256
+    linux-x86_64: sha256:a667454f3f4f8878df8199136b82c199f6ada8477b337fae3b1ef854f01e4e2f
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel-9.1.0-darwin-arm64.sha256
+    darwin-arm64: sha256:084a1784fa8f0dcae77fb4e88faa15048d8149a36c947ce198508bffb060e1bb
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel-9.1.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:666c6c79eda285cada5f5c39c891c6dd7ee0971b20bff365ea87a4b897271433
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel-9.1.0-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:b457dccd36a9bb9be01326cc1d069a201bb50b4b94562a652afb6f43c5148d42
+  '9.1.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel-9.1.1-linux-arm64.sha256
+    linux-arm64: sha256:82d1163884e45a6a7ff764cc01197b1b1ed497000726b84dc4b47c1dfc8a2bb4
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel-9.1.1-linux-x86_64.sha256
+    linux-x86_64: sha256:857bed5d2756b4d998d3caebf2d941d13d434c4eda4b1d6d7dda205736c25a93
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel-9.1.1-darwin-arm64.sha256
+    darwin-arm64: sha256:2db883718453f0437a7bcb408e889dbf8539cdc4d61c8ebc3807a1a88d02ff08
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel-9.1.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:6fd490084bdccf044d7a6d8360a26f8770fa09f4e624328efea292f493204930
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel-9.1.1-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:65f3484025c95a9f93647fd6edb84b19c15c67d5265d364f17843fd12c5d28fe
+  '9.2.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-linux-arm64.sha256
+    linux-arm64: sha256:049dd21f40ad979db11c3ee68c96a42ce75f1185e69ac61ab20de1501427a410
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-linux-x86_64.sha256
+    linux-x86_64: sha256:7668a95db1250f12c40407251e4e203b4ec8bf39bc495d2f485b2d8c99048694
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-darwin-arm64.sha256
+    darwin-arm64: sha256:dd466352a3e4d3581b8898740ee1ff208866ccbe25f8d367c5dcb950219587e6
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:14c9bcb01303b38192e0e2895051c1bcf19bf89d7e416f5aeeeb48b6b624cfbf
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel-9.2.0-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:5fc2f2805b8c697a54732558576938d06bab63aa0f9b6610cc01d2cae0388705
+  '9.3.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-arm64.sha256
+    linux-arm64: sha256:615cc2509819047e4930fe6643c5f01ebd705ccadf75e8f0b85f9b83cc6a6ca0
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-x86_64.sha256
+    linux-x86_64: sha256:d302d22ed77ee5658b87857249baa579db84300ecebe0a1e9a357b5b20f80eb8
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-arm64.sha256
+    darwin-arm64: sha256:f29ca3f3bf577eb1619aeeed401b64a10901c8da8031aaa4add54a4ad0e99e3a
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:ab0c51f2d51cb86c82b12be4901c7f4aa088afc39a7d71f610ed0f1d54f76de4
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:64aff24f986df98291f4da2795fd4b3e831c0af3f74bd7aa8eb56c49cb28b1e3
+  '9.3.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-arm64.sha256
+    linux-arm64: sha256:10ba9cb76d4ee748d274dcc2981992bb12b74a203dc41a9c2eceeb8f29359366
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-x86_64.sha256
+    linux-x86_64: sha256:7f775b54bbec487efaf0f49ccda1d2ed02cd34f582edfdd6aeeec76e39ef585c
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-arm64.sha256
+    darwin-arm64: sha256:19c4958626e0e3a564a61c2e85eeaab97b550a30632b82341191aa61ed0ccc1b
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:01eb4368a9c331391448bc1f11b1bec4e57793a0cee0581579ee786cd26baf37
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:12abcedb177ca1bd293875dd7d5aa1ebf4336cf44d406b597907932251cf9714
+  '9.3.2':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel-9.3.2-linux-arm64.sha256
+    linux-arm64: sha256:13d5677509ac5e52f28139d76b1343e8a4aa494451558222599abbb86bff92cb
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel-9.3.2-linux-x86_64.sha256
+    linux-x86_64: sha256:2e14c55c298752d71e8a0bbd762665ffce5966c9ad00ec5d1a8b82a58e7bfa06
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel-9.3.2-darwin-arm64.sha256
+    darwin-arm64: sha256:33fc3b489d159a86be0b465e9d1a58e5d03d2cc55faa87d8a19cd4de0a65f569
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel-9.3.2-darwin-x86_64.sha256
+    darwin-x86_64: sha256:b6560debbfff9dfb6a52b7aea6fce1465f737790fe4b99c0bb2c6059390c0dbb
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel-9.3.2-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:f395acbf1e6ffa714ef2da9e65403b0633f7cab8db2df90fe3a1ac89bab6ba2e
+  '9.3.3':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel-9.3.3-linux-arm64.sha256
+    linux-arm64: sha256:41349440c343005f0531ad128df3d3da58e39d5b50bda3eb495e186c2e0bd23b
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel-9.3.3-linux-x86_64.sha256
+    linux-x86_64: sha256:24f30faa845410547a4fdeaa8d083e2eb9e95438b996ca76a0102ff8ef171334
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel-9.3.3-darwin-arm64.sha256
+    darwin-arm64: sha256:5bcb76f9e94651f1eeec72243a69b03b4cd589c104611c583a59d4abbf9ea15a
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel-9.3.3-darwin-x86_64.sha256
+    darwin-x86_64: sha256:091ff8dd8ccda4cb0bd79af66b353d47d4f5d36de507fe0ac94c99ea918c17b3
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel-9.3.3-windows-x86_64.exe.sha256
+    windows-x86_64: sha256:9047d4453819a4215b7f95f97f38d084fc199a62dc961bce2244a4b0c975304b
