@@ -217,3 +217,84 @@ bazel_nojdk_checksums:
     darwin-arm64: sha256:97b647cadcb90514f4b4bd2cbbceed37d57bcda48d429edc62abcd72c03e5b40
     # https://github.com/bazelbuild/bazel/releases/download/9.0.0/bazel_nojdk-9.0.0-darwin-x86_64.sha256
     darwin-x86_64: sha256:1166bfa2139e4475679dd20bdeac252809b7ad1cd7f381e4d9c6f108858ac4ca
+  '9.0.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel_nojdk-9.0.1-linux-arm64.sha256
+    linux-arm64: sha256:bfbf69e9b00b6eb0aaf9acf5470304e2162d7863255525d05d70f725235306c4
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel_nojdk-9.0.1-linux-x86_64.sha256
+    linux-x86_64: sha256:7051ff8710ce96b5d44b5985372e97168588d58e982c3ceba58379aee8573c87
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel_nojdk-9.0.1-darwin-arm64.sha256
+    darwin-arm64: sha256:a0263765f31ba22d6f5dc4f85ef7e9952e1252752f998c86b7be8d7ae5a36c6a
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.1/bazel_nojdk-9.0.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:2af25112f96d9b3c9ac12da4a746722ef2238f2686b810a60e0f7251fddb9569
+  '9.0.2':
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel_nojdk-9.0.2-linux-arm64.sha256
+    linux-arm64: sha256:6d3adb036c940092f951b5c392125119a4c78f07bcf5af31cbda319c589d633c
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel_nojdk-9.0.2-linux-x86_64.sha256
+    linux-x86_64: sha256:27ab26da32952a93c31e93239327e99ea41d23d5074e5ec3e326af96a8f34887
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel_nojdk-9.0.2-darwin-arm64.sha256
+    darwin-arm64: sha256:ac12b2db2982bcc504de466a0459fd66b61f945aade5ffc8e34a5b4d86202776
+    # https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel_nojdk-9.0.2-darwin-x86_64.sha256
+    darwin-x86_64: sha256:8606b14e335d10de6cd22c527b05a0fcaf85760c2dc158219f39128441ab2ae4
+  '9.1.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel_nojdk-9.1.0-linux-arm64.sha256
+    linux-arm64: sha256:702712ac61d8eed72dc609dea71c9076c86ff1c25a7b0b0f7e555cb6f5b92bcc
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel_nojdk-9.1.0-linux-x86_64.sha256
+    linux-x86_64: sha256:5d9a612f5d0827ac0ce805e52d33fe0517348938e3691cd3c609e06eba858067
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel_nojdk-9.1.0-darwin-arm64.sha256
+    darwin-arm64: sha256:27c0a94687e4cf7d27c04a38ad33c26f4be9c91b8d29cc70c7f48dce625dd420
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel_nojdk-9.1.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:be54bc6d9b6c1e071acaeddd40c81a4836555c6f514ceff00680624156102ffd
+  '9.1.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel_nojdk-9.1.1-linux-arm64.sha256
+    linux-arm64: sha256:294ac7fdb0811b55f36a3d64e31e8e2ed061e4dbd209f957b9abade4a2698392
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel_nojdk-9.1.1-linux-x86_64.sha256
+    linux-x86_64: sha256:c5dc3d1fa6b9a834c1b89adfd3791fe90d9e39ccf79baac7f1daf3bba3c1147d
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel_nojdk-9.1.1-darwin-arm64.sha256
+    darwin-arm64: sha256:c079130049a63710f67dcb4133cf6d9384fa12e46b4efce6ce8183a83f6c4342
+    # https://github.com/bazelbuild/bazel/releases/download/9.1.1/bazel_nojdk-9.1.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:55f26ecd2799d4de7ddd35e3828ff31e1f3a63532bf877a561e81fe11bec3f26
+  '9.2.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-linux-arm64.sha256
+    linux-arm64: sha256:c3cea37c78285a9b1877be88f55277bc45acf960e006c64e8941c1f6cf1cab65
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-linux-x86_64.sha256
+    linux-x86_64: sha256:9cf3498e6d132b60ca90b1390499a07265084d4707e98c128c13c284da4c470f
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-darwin-arm64.sha256
+    darwin-arm64: sha256:7172ba73079d60cb4201d51ba9be2ebf08651c689eed42c5840eba41c9081cf6
+    # https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:1549242b08b18af3e5df3b1023ed286a422d1a262ef81df3579c529749429cba
+  '9.3.0':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-arm64.sha256
+    linux-arm64: sha256:8072e1c9daa5a465a20a046d34aad528fa1d77681768ac1d032b0acd4c413298
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-x86_64.sha256
+    linux-x86_64: sha256:08379739793204492ebb5e225df8fef9b11dcd287fe7333103920c090e26f7f4
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-arm64.sha256
+    darwin-arm64: sha256:c7c63ed0fee80107e4434a7fefe24192685813e2c8fa2739f25b610594562bbb
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-x86_64.sha256
+    darwin-x86_64: sha256:9a7ce91e91d4174210b809dfae491645572319ee9349ab499b332e59e2534361
+  '9.3.1':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-arm64.sha256
+    linux-arm64: sha256:b9dfab19c2f67d78f14aae8c6f250d40040177263c64a8cdf5008cd8e3a7db73
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-x86_64.sha256
+    linux-x86_64: sha256:444c309e4d3a3007ef39debdf483e4399912a7d0073f52dfb56352a15a727dd8
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-arm64.sha256
+    darwin-arm64: sha256:68ccda4efe08b9f25b4cf480dadf7ffec428deaac0fe4868936c6085a80089dd
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-x86_64.sha256
+    darwin-x86_64: sha256:4fdea4f435654aac531a904f6a0513576e48df2d9bc03d85b7aaaeb913c3cedb
+  '9.3.2':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel_nojdk-9.3.2-linux-arm64.sha256
+    linux-arm64: sha256:5c0ad01fa991a5bf04a30c9ee31b4c7eca3614503f22ff6c77d377c5b9157b1a
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel_nojdk-9.3.2-linux-x86_64.sha256
+    linux-x86_64: sha256:bba24e37e1499a2c93260568e2f02414c47d9c0dc48b18c6dc969adcebabf5ca
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel_nojdk-9.3.2-darwin-arm64.sha256
+    darwin-arm64: sha256:29e33e8f9ec291d7fd4b69d44c10aeef2c01f21adb8f3409c61eb9c6a850d896
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.2/bazel_nojdk-9.3.2-darwin-x86_64.sha256
+    darwin-x86_64: sha256:1f2099adc83f8f63f50d7e537be27dcc07aec9f0aaeeb0e0d31f67c941a191db
+  '9.3.3':
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-linux-arm64.sha256
+    linux-arm64: sha256:fef3e5657afa77e7c257dd486031802b96e8d0df7b135feaa14d649d27ce22c6
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-linux-x86_64.sha256
+    linux-x86_64: sha256:9f38a7e60bb03a320d1403d5c344c7cf5f8ab89d3478cb3472a1f8f4a11e8c49
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-darwin-arm64.sha256
+    darwin-arm64: sha256:a404774c826a5322de4fa621dd03d9d83abf61544238f0cc9149291a03a7464f
+    # https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-darwin-x86_64.sha256
+    darwin-x86_64: sha256:ae392bcc92ff73da614d58bd36e0da0ac32fbeb830c4423184829c3f11de9cc6
