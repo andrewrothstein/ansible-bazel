@@ -10,6 +10,9 @@ galaxy_info:
   min_ansible_version: '2.0'
   namespace: andrewrothstein
   platforms:
+    - name: Alpine
+      versions:
+        - all
     - name: ArchLinux
       versions:
         - all
@@ -32,3 +35,5 @@ galaxy_info:
         - jammy
         - noble
   role_name: bazel
+dependencies:
+  - role: andrewrothstein.alpineglibcshim
